@@ -1,0 +1,105 @@
+<h1> Input & Output </h1>
+
+# Input Output pada Pemrograman Python
+
+## 1.1 Input
+
+### 1.1.1 Input dari User
+
+Untuk membuat input user dapat menggunakan fungsi `input()`. Fungsi ini akan mengambil input dari user dan mengembalikan nilai inputnya.
+
+```python
+input()
+```
+
+contoh dari penggunakan input dari user
+
+```python
+nama = input("Masukkan nama Anda: ")
+print(f"Halo, {nama}!")
+```
+
+Contoh lain penggunaan input 
+
+```python
+nim = str(input("Masukan NIM \t:"))
+nama = str(input("Masukan Nama \t:"))
+uts = int(input("Masukan Nilai UTS \t:"))
+tugas = int(input("Masukan nilai tugas\t:"))
+uas = int(input("Masukan Nilai UAS \t:"))
+```
+## 1.2 Output
+
+### 1.2.1 Output ke layar
+
+Untuk menampilkan output ke layar dapat menggunakan fungsi `print()`. Fungsi ini akan menampilkan output yang diberikan.
+
+```python
+print("Hello, World!")
+```
+
+contoh lain penggunaan output ke layar
+
+```python
+print("NIM \t:", nim)
+print("Nama \t:", nama)
+print("UTS \t:", uts)
+print("Tugas \t:", tugas)
+print("UAS \t:", uas)
+```
+## 1.3 Input & Output pada File
+
+### 1.3.1 Input dari File
+
+Untuk mengambil input dari file dapat menggunakan fungsi `open()`. Fungsi ini akan membuka file yang diberikan dan mengembalikan objek file.
+
+```python
+with open('file.txt', 'r') as file:
+    content = file.read()
+    print(content)
+```
+
+### 1.3.2 Output ke File
+
+Untuk menampilkan output ke file dapat menggunakan fungsi `open()`. Fungsi ini akan membuka file yang diberikan dan mengembalikan objek file.
+
+```python
+with open('file.txt', 'w') as file:
+    file.write('Hello, World!')
+    print("Data telah ditambahkan")
+```
+
+## 1.4 Input & Output pada Database
+
+### 1.4.1 Input dari Database
+
+Untuk mengambil input dari database dapat menggunakan fungsi `open()`. Fungsi ini akan membuka database yang diberikan dan mengembalikan objek database.
+
+```python
+with open('database.db', 'r') as database:
+    content = database.read()
+    print(content)
+```
+
+## 1.5 Input & Output pada Web
+
+### 1.5.1 Input dari Web
+
+Untuk mengambil input dari web dapat menggunakan fungsi `open()`. Fungsi ini akan membuka web yang diberikan dan mengembalikan objek web.
+
+```python
+with open('web.web', 'r') as web:
+    content = web.read()
+    print(content)
+```
+
+### 1.5.2 Output ke Web
+
+Untuk menampilkan output ke web dapat menggunakan fungsi `open()`. Fungsi ini akan membuka web yang diberikan dan mengembalikan objek web.
+
+```python
+with open('web.web', 'w') as web:
+    web.write('Hello, World!')
+    print("Data telah ditambahkan")
+```
+
