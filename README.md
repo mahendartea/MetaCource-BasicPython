@@ -28,38 +28,7 @@ Yang akan dipelajari pada kursus ini adalah sebagai berikut :
 8. String Handling
 [Link](StringHandling.md)
 
+9. Function
+[Link](Function.md)
 
----
 
-
-8. List
-
-9. Tuple
-
-10. Dictionary
-
-11. Set
-
-12. Data Structure
-
-13. Regular Expression
-
-14. File I/O
-
-15. Exception Handling
-
-16. Advanced Topics
-
-17. Function
-
-18. Class
-
-19. Module
-
-20. Exception
-
-21. File I/O
-
-22. Regular Expression
-
-23. Advanced Topics
