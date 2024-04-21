@@ -7,23 +7,25 @@ Yang akan dipelajari pada kursus ini adalah sebagai berikut :
 1. Input & Output 
 [Link](InputOutput.md)
 
+2. Variable
+[Link](Variable.md)
 
-2. Data Type
+3. Data Type
 [Link](DataType.md)
 
-3. Operation
+4. Operation
 [Link](Operation.md)
 
-4. Conditional
+5. Conditional
 [Link](Conditional.md)
 
-5. Looping
+6. Looping
 [Link](Looping.md)
 
-6. Subroutine
+7. Subroutine
 [Link](Subroutine.md)
 
-7. String Handling
+8. String Handling
 [Link](StringHandling.md)
 
 
