@@ -1,6 +1,8 @@
 <h1> Meta Course | Python Basic </h1>
 
-# Basic Python 
+## Dasar Pemrgraman Python
+
+>By Mahendar Dwi Payana 
 
 Yang akan dipelajari pada kursus ini adalah sebagai berikut : 
 

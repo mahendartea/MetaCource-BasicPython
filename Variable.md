@@ -2,6 +2,7 @@
 
 ## 1. Definisi
 
+Pengenal (*identifier*) digunakan untuk memberikan nama seperti variabel.
 Variable atau variabel adalah tempat untuk menyimpan nilai yang dapat diubah. Variabel dapat berisi nilai yang berbeda-beda tiap kali program dijalankan. Contoh: `a = 10`, `b = 20`, `c = 30`
 
 ## 2. Penulisan
@@ -64,6 +65,16 @@ print(type(a))
 
 1. Nama variable tidak boleh mengandung spasi, harus menggunakan underscore (`_`) sebagai pemisah antar kata. Contoh: `nama_variable`
 2. Nama variable tidak boleh mengandung karakter spesial, kecuali underscore (`_`). Contoh: `nama_variable`, `nama@variable`, `nama#variable`, `nama$variable`
+
+Contoh penamaan variable yang boleh seperti berikut
+```python
+nama = "budiawan"
+jabatan = "dosen"
+nilai_tinggi = 170
+nama1 = "budiawan rudi"
+_luas = 100
+nama@variable = "budiawan rudi"
+```
 
 ## 8. Multi-variable
 

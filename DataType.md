@@ -98,4 +98,31 @@ a = {1, 2, 3, 4, 5}
 print(a)
 ```
 
+## 8. Fungsi Tipe Data
+
+Fungsi tipe data ini digunakan untuk mengubah tipe data dari satu tipe ke tipe data yang lain. Contoh: `int(a)`, `float(a)`, `str(a)`
+
+```python
+a = 10
+a = float(a)
+print(type(a))
+b = long(a)
+print(type(b))
+c = str(a)
+print(type(c))
+```
+
+|**Nama Fungsi**|**Deskrips**i|
+|---|---|
+|int()|Mengubah tipe data dari satu tipe ke tipe data **integer**.|
+|long()|Mengubah tipe data dari satu tipe ke tipe data **integer Panjang**.|
+|float()|Mengubah tipe data dari satu tipe ke tipe **float**.|
+|bool()|Mengubah tipe data dari satu tipe ke tipe data **boolean**.|
+|chr()|Mengubah tipe data dari satu tipe ke tipe data **char**.|
+|str()|Mengubah tipe data dari satu tipe ke tipe data **string**|
+|bin()|Mengubah tipe data dari satu tipe ke tipe data **binary**|
+|hex()|Mengubah tipe data dari satu tipe ke tipe data **hexadecimal**|
+|oct()|Mengubah tipe data dari satu tipe ke tipe data **octal**|
+
+
 [<<Kembali](README.md)

@@ -69,6 +69,7 @@ Mengapa kita belajar pemrograman python? karena beberapa alasan yaitu seperti be
 
 ## 4. Penulisan Script Python
 
+### 4.1 Penulisan Script
 Setiap bahasa pemrograman memiliki blok struktur tersendiri untuk membuat program. Secara umum, struktur bahasa pemrograman python seperti berikut : 
 > Stuktur program
 > ```
@@ -103,6 +104,44 @@ contoh penulisan script python selamat datang
 ```python
 print("Selamat Datang di pemrograman Python")
 ```
+
+### 4.2 Reserve Keyword
+Python memiliki keyword yang digunakan untuk membuat program.
+
+| Keyword | Deskripsi |
+| --- | --- |
+| and | and |
+| as | as |
+| assert | assert |
+| break | break |
+| class | class |
+| continue | continue |
+| def | def |
+| del | del |
+| elif | elif |
+| else | else |
+| except | except |
+| finally | finally |
+| for | for |
+| from | from |
+| global | global |
+| if | if |
+| import | import |
+| in | in |
+| is | is |
+| lambda | lambda |
+| nonlocal | nonlocal |
+| not | not |
+| or | or |
+| pass | pass |
+| raise | raise |
+| return | return |
+| try | try |
+| while | while |
+| with | with |
+| yield | yield |
+
+
 [<<kembali](README.md)
 
 
