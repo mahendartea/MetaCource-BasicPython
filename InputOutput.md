@@ -127,3 +127,5 @@ nilai = int(input("Masukkan Nilai \t:"))
 print("Nama \t:", nama)
 print("Nilai \t:", nilai)
 ```
+
+[<<Kembali](README.md)

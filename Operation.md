@@ -108,6 +108,5 @@ print(a ^ b) # 15
 print(~a) # -11
 ```
 
-
-
+[<<Kembali](README.md)
 

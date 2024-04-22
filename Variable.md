@@ -86,7 +86,5 @@ print(x)
 print(y)
 print(z)
 ```
-
-
-
+[<<Kembali](README.md)
 

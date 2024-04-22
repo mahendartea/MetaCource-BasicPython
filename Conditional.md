@@ -166,6 +166,6 @@ Contoh penggunaan ternary operator
 a = 10
 a == 10 ? print("Benar") : print("Salah")
 ```
-
+[<<Kembali](README.md)
 
 
