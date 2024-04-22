@@ -30,10 +30,7 @@ Yang akan dipelajari pada kursus ini adalah sebagai berikut :
 7. Looping
 [Link](Looping.md)
 
-8. Subroutine
-[Link](Subroutine.md)
-
-9. Function
+8. Function
 [Link](Function.md)
 
 
