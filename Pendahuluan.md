@@ -10,13 +10,19 @@ Merunut amazon Python adalah bahasa pemrograman yang banyak digunakan dalam apli
 
 ![python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png)
 
+### Prerequisite :
+
+- Algoritma dan pemrograman
+- Pengenalan Bahasa pemrograman
+- Structured Programming
+- Basic Programming
 
 
 ## 2. Instalasi Python
 
 ![windows](https://www.python.org/static/img/python-logo.png)
 
-#### 2.1 Instalasi python di windows
+### 2.1 Instalasi python di windows
 
 
 Untuk menginstall python di windows dapat mengunjungi website berikut : [link](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
