@@ -103,3 +103,27 @@ with open('web.web', 'w') as web:
     print("Data telah ditambahkan")
 ```
 
+---
+## Latihan
+### 1. Input dan Output Karyawan dan Gaji
+
+```python
+nama = str(input("Masukkan Nama Karyawan \t:"))
+gaji = int(input("Masukkan Gaji Karyawan \t:"))
+print("Nama Karyawan \t:", nama)
+print("Gaji Karyawan \t: {:,.2f}".format(gaji))
+tunjangan = gaji * 0.1
+print("Tunjangan Karyawan \t: {:,.2f}".format(tunjangan))
+pajak = gaji * 0.15
+print("Pajak Karyawan \t: {:,.2f}".format(pajak))
+gaji_bersih = gaji + tunjangan - pajak
+print("Gaji Bersih Karyawan \t: {:,.2f}".format(gaji_bersih))
+
+```
+### 2. Input dan Output Nilai
+```python
+nama = str(input("Masukkan Nama \t:"))
+nilai = int(input("Masukkan Nilai \t:"))
+print("Nama \t:", nama)
+print("Nilai \t:", nilai)
+```

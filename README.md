@@ -4,6 +4,9 @@
 
 Yang akan dipelajari pada kursus ini adalah sebagai berikut : 
 
+0. Pendahuluan
+[Link](Pendahuluan.md)
+
 1. Input & Output 
 [Link](InputOutput.md)
 
