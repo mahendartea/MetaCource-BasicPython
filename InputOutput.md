@@ -1,6 +1,6 @@
 <h1> Input & Output </h1>
 
-# Input Output pada Pemrograman Python
+Input Output pada Pemrograman Python
 
 ## 1.1 Input
 

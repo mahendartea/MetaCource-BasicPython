@@ -18,20 +18,20 @@ Yang akan dipelajari pada kursus ini adalah sebagai berikut :
 3. Data Type
 [Link](DataType.md)
 
-4. Operation
+4. String Handling
+[Link](StringHandling.md)
+
+5. Operation
 [Link](Operation.md)
 
-5. Conditional
+6. Conditional
 [Link](Conditional.md)
 
-6. Looping
+7. Looping
 [Link](Looping.md)
 
-7. Subroutine
+8. Subroutine
 [Link](Subroutine.md)
-
-8. String Handling
-[Link](StringHandling.md)
 
 9. Function
 [Link](Function.md)

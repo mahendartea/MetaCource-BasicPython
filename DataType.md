@@ -112,6 +112,8 @@ c = str(a)
 print(type(c))
 ```
 
+**Beberapa fungsi tipe data adalah sebagai berikut :**
+
 |**Nama Fungsi**|**Deskrips**i|
 |---|---|
 |int()|Mengubah tipe data dari satu tipe ke tipe data **integer**.|
