@@ -28,6 +28,19 @@ uts = int(input("Masukan Nilai UTS \t:"))
 tugas = int(input("Masukan nilai tugas\t:"))
 uas = int(input("Masukan Nilai UAS \t:"))
 ```
+
+Contoh kasus lain 
+```python
+nim = int(input("Masukan Nomor Induk Mahasiswa : "))
+nama = str(input("Masukan Nama Mahasiswa: "))
+uts = float(input("Masukan nilai UTS: "))
+tugas = float(input("Masukan nilai Tugas: "))
+uas = float(input("Masukan nilai UAS: "))
+hasil = ((uts*0.3) + (tugas*0.2) + (uas*0.5))
+
+
+```
+
 ## 1.2 Output
 
 ### 1.2.1 Output ke layar
@@ -41,11 +54,12 @@ print("Hello, World!")
 contoh lain penggunaan output ke layar
 
 ```python
-print("NIM \t:", nim)
-print("Nama \t:", nama)
-print("UTS \t:", uts)
-print("Tugas \t:", tugas)
-print("UAS \t:", uas)
+print("Nomor induk mahasiswa : ", nim)
+print("Nama lengkap mahasiswa : ", nama)
+print("nilai UTS : ", uts)
+print("Nilai tugas : ", tugas)
+print("Nilai Uas : ", uas)
+print("Hasil akhir nilai mahasiswa adalah : ",hasil)
 ```
 ## 1.3 Input & Output pada File
 
@@ -81,29 +95,6 @@ with open('database.db', 'r') as database:
     print(content)
 ```
 
-## 1.5 Input & Output pada Web
-
-### 1.5.1 Input dari Web
-
-Untuk mengambil input dari web dapat menggunakan fungsi `open()`. Fungsi ini akan membuka web yang diberikan dan mengembalikan objek web.
-
-```python
-with open('web.web', 'r') as web:
-    content = web.read()
-    print(content)
-```
-
-### 1.5.2 Output ke Web
-
-Untuk menampilkan output ke web dapat menggunakan fungsi `open()`. Fungsi ini akan membuka web yang diberikan dan mengembalikan objek web.
-
-```python
-with open('web.web', 'w') as web:
-    web.write('Hello, World!')
-    print("Data telah ditambahkan")
-```
-
----
 ## Latihan
 ### 1. Input dan Output Karyawan dan Gaji
 
