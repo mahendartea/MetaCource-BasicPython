@@ -119,4 +119,20 @@ print("Nama \t:", nama)
 print("Nilai \t:", nilai)
 ```
 
+### 3. Mencari Luas Segitiga
+
+```python
+alas = int(input("Masukkan Alas \t:"))
+tinggi = int(input("Masukkan Tinggi \t:"))
+luas = alas * tinggi / 2
+print("Luas Segitiga \t:", luas)
+```
+
+### 4. Konversi celcius ke kelvin
+```python
+celcius = int(input("Masukkan Nilai Celcius \t:"))
+kelvin = celcius + 273
+print("Nilai Kelvin \t:", kelvin)
+```
+
 [<<Kembali](README.md)
