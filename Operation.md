@@ -1,4 +1,4 @@
-<h1>Operation</h1>
+<h1>Operasi Pada Python</h1>
 
 ## Pengertian Operasi pada Python
 Operation atau operasi adalah suatu proses yang dilakukan pada suatu data. Contoh operasi yang sering digunakan adalah operasi aritmatika, logika, dan lainnya.

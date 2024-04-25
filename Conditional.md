@@ -2,11 +2,27 @@
 
 # Kondisi pada Pemrograman Python
 
+## PreRequisite
+- Algoritma
+- Diagram Alur
+- Strukut Data
+
+Cek di [Algoritma](https://www.dicoding.com/blog/flowchart-adalah/)
+
 ## 1.1 Kondisi 
 
 ### 1.1.1 Kondisi if
 
 Kondisi if merupakan sebuah percabangan yang akan dieksekusi jika sebuah syarat bernilai benar. Contoh: `if a == 10`
+
+```
+Sintaks : if
+
+if syarat:
+    Pernyataan1
+    Pernyataan2
+    dst
+```
 
 Contoh penggunaan if
 
@@ -19,6 +35,14 @@ if a == 10:
 ### 1.1.2 Kondisi if-else
 
 Kondisi if-else merupakan sebuah percabangan yang akan dieksekusi jika sebuah syarat bernilai benar dan jika syarat bernilai salah. Contoh: `if a == 10: print("Benar") else: print("Salah")`
+
+```
+Sintaks : if-else
+if syarat:
+    Pernyataan1
+else:
+    Pernyataan2
+```
 
 contoh penggunaan if-else
 
@@ -35,6 +59,16 @@ else:
 Kondisi if-elif-else merupakan sebuah percabangan yang akan dieksekusi jika sebuah syarat bernilai benar, jika syarat bernilai salah, dan jika syarat bernilai salah, jika syarat bernilai salah.
 
 Contoh penggunaan if-elif-else
+
+```
+Sintaks : if-elif-else
+if syarat:
+    Pernyataan1
+elif syarat:
+    Pernyataan2
+else:
+    Pernyataan3
+```
 
 ```python
 a = 10
@@ -68,6 +102,15 @@ else:
 ### 1.1.5 Kondisi dengan Operator Logika
 
 Kondisi dengan Operator Logika adalah sebuah kondisi yang didefinisikan menggunakan operator logika. Contoh: `a and b`, `a or b`, `not a`
+
+Untuk ketiga operasi logika ada `and`, `or`, dan `not` cek tabel kebenaran dibawah ini:
+| Operator Logika | Deskripsi |
+|-----------------|-----------|
+| `and` | Logika dan |
+| `or` | Logika atau |
+| `not` | Logika tidak
+
+bahan logika [link](https://p2k.stekom.ac.id/ensiklopedia/Tabel_kebenaran)
 
 contoh penggunaan kondisi dengan operator logika
 
@@ -166,6 +209,84 @@ Contoh penggunaan ternary operator
 a = 10
 a == 10 ? print("Benar") : print("Salah")
 ```
+
+## Latihan
+### 1. Nilai mahasiswa
+```python
+nim = int(input("Masukan Nomor Induk Mahasiswa : "))
+nama = str(input("Masukan Nama Mahasiswa: "))
+nilai = 60
+if nilai >= 80:
+    status = "Lulus"
+else:
+    status = "Tidak Lulus"
+
+print("Nomor induk mahasiswa : ", nim)
+print("Nama lengkap mahasiswa : ", nama)
+print("Nilai \t: ", nilai)
+print("Status \t: ", status)
+```
+
+### 2. Nilai mahasiswa dengan simbol
+
+```python
+nim = int(input("Masukan Nomor Induk Mahasiswa : "))
+nama = str(input("Masukan Nama Mahasiswa: "))
+nilai = 60
+if nilai >= 80:
+    grade = "A"
+else if nilai >= 70:
+    grade = "B"
+else if nilai >= 60:
+    grade = "C"
+else if nilai >= 50:
+    grade = "D"
+else:
+    grade = "E"
+
+print("Nomor induk mahasiswa : ", nim)
+print("Nama lengkap mahasiswa : ", nama)
+print("Nilai \t: ", nilai)
+print("Simbol \t: ", grade)
+```
+
+### 3. Latihan membuat hari
+
+```python
+def senin():
+    print("Senin")
+def selasa():
+    print("Selasa")
+def rabu():
+    print("Rabu")
+def kamis():
+    print("Kamis")
+def jumat():
+    print("Jumat")
+def sabtu():
+    print("Sabtu")
+def minggu():
+    print("Minggu")
+def default():
+    print("Hari tidak valid")
+
+seleksi = {
+    1: senin,
+    2: selasa,
+    3: rabu,
+    4: kamis,
+    5: jumat,
+    6: sabtu,
+    7: minggu
+}
+
+def switch(namahari):
+    return selecksi.get(namahari, default)()
+
+kode_hari = int(input("Masukan kode hari : "))
+print("Hari ini adalah : ", switch(kode_hari))
+    
+
 [<<Kembali](README.md)
 
 
