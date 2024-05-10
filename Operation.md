@@ -67,7 +67,7 @@ Tujuan operator ini adalah untuk memutuskan nilai mana yang akan diberikan ke va
     ```python
     a = 10
     b = 5
-    print(a > b ? a : b) # 10
+    print("a lebih besar" if a > b else "b lebih besar")
     ```
 
 ## 1. Operator Aritmatika
