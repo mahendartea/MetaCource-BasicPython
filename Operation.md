@@ -36,8 +36,8 @@ Berdasarkan jumlah `operand`nya maka kita mengenal operator : `unary`, `binary`,
     ```python
     a = 10
     print(-a) # -10
-    print(a++) # 10
-    print(a--) # 11
+    print(a++) # 10 digunakan untuk looping
+    print(a--) # 11 digunakan untuk looping
     ```
 
 2. **Binary Operator**: Operator binary adalah operator yang digunakan untuk melakukan operasi binary, seperti penjumlahan, pengurangan, perkalian, dan pembagian. Contoh operator binary yaitu +.
@@ -92,13 +92,15 @@ Contoh operasi assignment yaitu:
 a = 10
 b = 5
 
-print(a += b) # 15 atau a = a + b
-print(a -= b) # 10 atau a = a - b
-print(a *= b) # 50 atau a = a * b
-print(a /= b) # 2 atau a = a / b
-print(a %= b) # 0 atau a = a % b
-print(a **= b) # 100000 atau a = a ** b
-print(a //= b) # 2 atau a = a // b
+a += b
+a -= b
+a *= b
+a /= b
+a %= b
+a **= b
+a //= b
+
+print(a)
 ```
 
 ## 3. Operator Pembanding
