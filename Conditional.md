@@ -187,13 +187,21 @@ Switch Case merupakan sebuah percabangan yang akan dieksekusi jika sebuah syarat
 contoh penggunaan switch case
 
 ```python
-a = 10
-switch (a) {
-    case 10:
-        print("Benar")
-    case 20:
+inputan = input("Masukkan angka: ")
+
+match inputan:
+    case "1":
+        print("Satu")
+    case "2":
+        print("Dua")
+    case "3":
+        print("Tiga")
+    case "4":
+        print("Empat")
+    case "5":
+        print("Lima")
+    case _:
         print("Salah")
-}
 ```
 
 
@@ -207,7 +215,8 @@ Contoh penggunaan ternary operator
 
 ```python
 a = 10
-a == 10 ? print("Benar") : print("Salah")
+
+print("Benar") if a == 10 else print("Salah")
 ```
 
 ## Latihan
