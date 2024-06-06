@@ -40,17 +40,74 @@ To Advance
 9. Module
 [Link](Module.md)
 
-10. Module Numpy
+10. Python Datetime
+[Link](PythonDatetime.md)
+
+11. Python Regex
+[Link](PythonRegex.md)
+
+12. Python PIP
+[Link](PythonPIP.md)
+
+13. Python Json
+[Link](PythonJson.md)
+
+14. Python CSV
+[Link](PythonCSV.md)
+
+15. Python Try & Except
+[Link](PythonTryExcept.md)
+
+To Database Engineering
+---
+11. Database
+[Link](Database.md)
+
+12. Database MySQL
+[Link](DatabaseMySQL.md)
+
+13. Module Numpy
 [Link](ModuleNumpy.md)
 
-11. Module Pandas
+14. Module Pandas
 [Link](ModulePandas.md)
 
-12. Module Matplotlib
+15. Module Matplotlib
 [Link](ModuleMatplotlib.md)
 
-13. Module Scikit-learn
+16. Module Scikit-learn
 [Link](ModuleScikit-learn.md)
+
+To Machine Learning Engineering
+---
+17. Module Numpy
+[Link](ModuleNumpy.md)
+
+18. Module Pandas
+[Link](ModulePandas.md)
+
+19. Module Matplotlib
+[Link](ModuleMatplotlib.md)
+
+20. Module Scikit-learn
+[Link](ModuleScikit-learn.md)
+
+21. Module Scipy
+[Link](ModuleScipy.md)
+
+To Deep Learning Engineering
+---
+22. Module Pytorch
+[Link](ModulePytorch.md)
+
+23. Module Keras
+[Link](ModuleKeras.md)
+
+24. Module Tensorflow
+[Link](ModuleTensorflow.md)
+
+25. Module Sklearn
+[Link](ModuleSklearn.md)
 
 
 
