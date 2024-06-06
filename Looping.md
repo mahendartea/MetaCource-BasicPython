@@ -133,6 +133,11 @@ while y == "y":
     y = input("Apakah anda ingin melanjutkan (y/t)? ")
 ```
 
+flowchart while
+
+![alt text](image.png)
+
+
 ## Latihan
 ### 1. Latihan Mencari Bilangan Prima
 ```python
