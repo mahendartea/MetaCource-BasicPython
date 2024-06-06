@@ -136,6 +136,7 @@ while y == "y":
 flowchart while
 
 ![alt text](image.png)
+[sumber](https://www.programiz.com/python-programming/while-loop)
 
 
 ## Latihan
