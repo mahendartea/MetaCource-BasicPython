@@ -22,6 +22,28 @@ print(platform.version())
 
 print(mahasiswa["nama"])
 
+# Datetime
+from datetime import date
+
+today = date.today()
+
+print(today)
+
+format_date = date.today().strftime("%d-%m-%Y")
+print(format_date)
+
+ctime = date.ctime(today)
+print(ctime)
+
+import datetime
+time = datetime.time(12, 0, 0)
+
+bulan = datetime.datetime(2018, 6, 1)
+
+print(bulan.strftime("%B"))
+
+
+
 
 
 
