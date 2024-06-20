@@ -33,6 +33,8 @@ misal kita punya sebuah module bernama `my_module.py` yang berisi sebuah fungsi 
 setelah itu kita buatkan code pada file tersebut sebagai berikut:
 
 ```python
+# file name : my_module.py
+
 def hello():
     print("Hello, World!")
 ```
@@ -49,6 +51,7 @@ my_module.hello()
 module berisi variable yang digunakan pada program kita.
 
 ```python
+# file name : mymodule.py
 person1 = {
   "name": "John",
   "age": 36,
@@ -106,6 +109,7 @@ print(a)
 contoh lain, misal kita buat file module dengan nama `mymodule.py` 
 
 ```python
+# file name : mymodule.py
 def greeting(name):
   print("Hello, " + name)
 

@@ -1,8 +1,10 @@
-# import mymodule
+# import mymodule defined-user
 import mymodule as md
+from mymodule import mahasiswa
+
+# import from buildin
 import math
 import platform
-from mymodule import mahasiswa
 
 a = md.increment()
 

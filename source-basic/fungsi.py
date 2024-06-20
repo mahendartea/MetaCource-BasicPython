@@ -5,7 +5,8 @@ def show_data():
         print("Belum ada data")
     else:
         for indeks in range(len(buku)):
-            print("[%d] %s" % (indeks, buku[indeks]))
+            # print("[%d] %s" % (indeks, buku[indeks]))
+            print(f"buku ke - {indeks} adalah : {buku[indeks]}")
 
 # fungsi untuk menambahkan data
 def tambah_buku():

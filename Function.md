@@ -39,10 +39,10 @@ misalnya ada sebuah `function` untuk rumus persegi. Maka perlu ada parameter sis
 Berikut adalah skema sintax pada function yang memilki parameter.
 
 ```python
-def my_function(fname, lname):
-  print(fname + " " + lname)
+def my_function(nama_awal, nama_akhir):
+  print(nama_awal + " " + nama_akhir)
 
-my_function("Emil", "Refsnes")
+my_function("Budi", "Saputra")
 ```
 
 Contoh penggunaan function pada rumus menghitung rumus segitiga adalah sebagai berikut
